@@ -1,0 +1,55 @@
+.table-entry {
+  border: 1px solid #ddd;
+  width: 800px;
+  margin: 10px;
+  overflow: auto;
+  display: flex;
+  padding: 8px;
+}
+
+.table-entry-container {
+  width: 90%;
+}
+
+.headers {
+  font-size: 16px;
+}
+
+.table-entry-lists {
+  list-style-type: none;
+  padding-left: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: transparent;
+}
+
+.right-icon {
+  padding: 6px;
+  width: 40px;
+}
+
+.li1 {
+  width: 80px;
+  margin: 5px;
+}
+.li2 {
+  max-width: 150px;
+  margin: 5px;
+}
+
+.input {
+  width: 130px;
+  padding: 5px;
+  background-color: transparent;
+}
+
+.select {
+  width: 130px;
+  padding: 5px;
+  background-color: transparent;
+}
+.button {
+  align-self: center;
+  margin: 10px;
+}

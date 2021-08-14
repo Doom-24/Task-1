@@ -1,0 +1,30 @@
+.table-view-lists {
+  list-style-type: none;
+  padding-left: 0px;
+  display: flex;
+  justify-content: space-between;
+  background-color: transparent;
+}
+
+.li {
+  background: transparent;
+  border: 1px solid black;
+  padding: 6px;
+  width: 100px;
+  height: 25x;
+  font-size: 12px;
+  align-self: center;
+  margin: 10px;
+}
+
+.table-view {
+  border: 1px solid #ddd;
+  width: 500px;
+  margin: 10px;
+  overflow: auto;
+  display: flex;
+  padding: 10px;
+  margin: 30px;
+  background-color: transparent;
+  flex-wrap: wrap;
+}
